@@ -1,0 +1,58 @@
+              corpus     category                         spec    irr     lo     hi      p     n
+0   realtime 2013-25        hedge                 year FE only  0.584  0.519  0.657  0.000  4806
+1   realtime 2013-25        hedge          year FE + 20 topics  0.775  0.669  0.897  0.001  4806
+2   realtime 2013-25        hedge          year FE + 40 topics  0.666  0.578  0.767  0.000  4806
+3   realtime 2013-25        hedge  shared topics only (K = 40)  0.674  0.582  0.780  0.000  2690
+4   realtime 2013-25      booster                 year FE only  1.263  0.990  1.611  0.060  4806
+5   realtime 2013-25      booster          year FE + 20 topics  1.387  1.043  1.844  0.024  4806
+6   realtime 2013-25      booster          year FE + 40 topics  1.263  0.955  1.670  0.102  4806
+7   realtime 2013-25      booster  shared topics only (K = 40)  1.470  1.041  2.076  0.029  2690
+8   realtime 2013-25   obligation                 year FE only  0.954  0.819  1.112  0.549  4806
+9   realtime 2013-25   obligation          year FE + 20 topics  0.753  0.627  0.904  0.002  4806
+10  realtime 2013-25   obligation          year FE + 40 topics  0.769  0.630  0.939  0.010  4806
+11  realtime 2013-25   obligation  shared topics only (K = 40)  0.744  0.597  0.927  0.009  2690
+12  realtime 2013-25   permission                 year FE only  0.712  0.607  0.836  0.000  4806
+13  realtime 2013-25   permission          year FE + 20 topics  0.717  0.591  0.870  0.001  4806
+14  realtime 2013-25   permission          year FE + 40 topics  0.748  0.607  0.923  0.007  4806
+15  realtime 2013-25   permission  shared topics only (K = 40)  0.796  0.628  1.009  0.060  2690
+16  realtime 2013-25  attribution                 year FE only  0.862  0.834  0.891  0.000  4806
+17  realtime 2013-25  attribution          year FE + 20 topics  0.926  0.887  0.967  0.001  4806
+18  realtime 2013-25  attribution          year FE + 40 topics  0.905  0.868  0.943  0.000  4806
+19  realtime 2013-25  attribution  shared topics only (K = 40)  0.907  0.866  0.949  0.000  2690
+20      desk 2006-12        hedge                 year FE only  0.602  0.549  0.660  0.000  4023
+21      desk 2006-12        hedge          year FE + 20 topics  0.662  0.588  0.746  0.000  4023
+22      desk 2006-12        hedge          year FE + 40 topics  0.664  0.593  0.744  0.000  4023
+23      desk 2006-12        hedge  shared topics only (K = 40)  0.660  0.581  0.749  0.000  2257
+24      desk 2006-12      booster                 year FE only  1.199  0.995  1.444  0.057  4023
+25      desk 2006-12      booster          year FE + 20 topics  1.165  0.891  1.523  0.265  4023
+26      desk 2006-12      booster          year FE + 40 topics  1.107  0.853  1.438  0.444  4023
+27      desk 2006-12      booster  shared topics only (K = 40)  1.100  0.833  1.452  0.503  2257
+28      desk 2006-12   obligation                 year FE only  0.679  0.604  0.762  0.000  4023
+29      desk 2006-12   obligation          year FE + 20 topics  0.694  0.583  0.826  0.000  4023
+30      desk 2006-12   obligation          year FE + 40 topics  0.718  0.621  0.829  0.000  4023
+31      desk 2006-12   obligation  shared topics only (K = 40)  0.704  0.597  0.829  0.000  2257
+32      desk 2006-12   permission                 year FE only  1.068  0.926  1.233  0.366  4023
+33      desk 2006-12   permission          year FE + 20 topics  0.907  0.754  1.092  0.304  4023
+34      desk 2006-12   permission          year FE + 40 topics  0.870  0.722  1.048  0.144  4023
+35      desk 2006-12   permission  shared topics only (K = 40)  0.869  0.705  1.072  0.191  2257
+36      desk 2006-12  attribution                 year FE only  0.797  0.768  0.828  0.000  4023
+37      desk 2006-12  attribution          year FE + 20 topics  0.868  0.824  0.916  0.000  4023
+38      desk 2006-12  attribution          year FE + 40 topics  0.853  0.812  0.896  0.000  4023
+39      desk 2006-12  attribution  shared topics only (K = 40)  0.861  0.817  0.907  0.000  2257
+
+Restructuring DiD with topic FE:
+       category                       spec    irr     lo     hi      p     n
+0        hedge             desk + year FE  0.912  0.709  1.174  0.476  4806
+1        hedge  desk + year + 40 topic FE  0.964  0.751  1.239  0.777  4806
+2      booster             desk + year FE  0.624  0.382  1.020  0.060  4806
+3      booster  desk + year + 40 topic FE  0.776  0.473  1.272  0.315  4806
+4   obligation             desk + year FE  1.006  0.718  1.411  0.970  4806
+5   obligation  desk + year + 40 topic FE  1.080  0.773  1.508  0.652  4806
+6   permission             desk + year FE  0.889  0.641  1.234  0.483  4806
+7   permission  desk + year + 40 topic FE  1.010  0.727  1.402  0.953  4806
+8  attribution             desk + year FE  0.916  0.856  0.980  0.011  4806
+9  attribution  desk + year + 40 topic FE  0.966  0.905  1.032  0.307  4806
+realtime 2013-25: topics (K=20) account for 53% of the log hedging gap
+realtime 2013-25: topics (K=40) account for 24% of the log hedging gap
+desk 2006-12: topics (K=20) account for 19% of the log hedging gap
+desk 2006-12: topics (K=40) account for 19% of the log hedging gap

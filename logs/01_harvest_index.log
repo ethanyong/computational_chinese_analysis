@@ -1,0 +1,54 @@
+   zaobao.com/zg/: 2 calls, 26716 url-key rows
+   zaobao.com/gj/: 2 calls, 47293 url-key rows
+   zaobao.com/sp/: 12 calls, 293470 url-key rows
+   zaobao.com/yx/: 1 calls, 16134 url-key rows
+   zaobao.com.sg/zg/: 1 calls, 2900 url-key rows
+   zaobao.com.sg/gj/: 1 calls, 15951 url-key rows
+   zaobao.com.sg/sp/: 7 calls, 173247 url-key rows
+   zaobao.com.sg/yx/: 1 calls, 2637 url-key rows
+   zaobao.com.sg/news/china/story: 4 calls, 87639 url-key rows
+   zaobao.com.sg/news/world/story: 4 calls, 83961 url-key rows
+   zaobao.com.sg/news/singapore/story: 7 calls, 171930 url-key rows
+   zaobao.com.sg/news/sea/story: 2 calls, 44898 url-key rows
+   zaobao.com.sg/realtime/china/story: 12 calls, 289704 url-key rows
+   zaobao.com.sg/realtime/world/story: 10 calls, 234686 url-key rows
+   zaobao.com.sg/realtime/singapore/story: 9 calls, 205473 url-key rows
+
+Saved 618,626 unique articles
+desk               china   sea  singapore  world
+corpus   pub_year                               
+print    2005          0     0       1470   1401
+         2006        457   256       1461    880
+         2007       1806  1284       2832   1809
+         2008       2238  1734       3483   1944
+         2009       3379  2778       6821   3611
+         2010       3729  2572       5000   3767
+         2011       3308  2682       5173   4167
+         2012       2642  2181       6613   3487
+         2013          2     0          5      8
+         2015          0     0        182      0
+         2016       1782  1350       4271   2380
+         2017       2513  1910       6499   3348
+         2018       2703  2034       5722   3181
+         2019       3279  2259       6196   3597
+         2020       3958  2094       6920   3424
+         2021       3819  2055       9496   3400
+         2022       3789  2282       7633   3652
+         2023       3688  2400       8184   3582
+         2024       3329  2463       8486   3282
+         2025       3393  2461       8455   3185
+         2026      10399  2842       8980   8388
+realtime 2013       3853     0       1362   4230
+         2014       6052     0       3645   7899
+         2015       5394     0       3715   5999
+         2016       8626     0       4065   9822
+         2017      10621     0       3877   9192
+         2018      11327     0       4768  10253
+         2019      15669     0       4783  11446
+         2020      16430     0       6671  11553
+         2021      14748     0       8128  10920
+         2022      14366     0       8317   9910
+         2023      13247     0       7949   8085
+         2024      13050     0       8572   8730
+         2025      14904     0       9246  11330
+         2026        719     0        285    643

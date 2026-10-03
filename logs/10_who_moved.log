@@ -1,0 +1,11 @@
+C = 0.001; break at t = 2021.915
+                 axis       desk  n_pre  n_post  raw_gap  pre_mean  post_mean  shift     lo     hi  trend_per_year  trend_lo  trend_hi  its_level_shift  its_lo  its_hi  its_p
+0      china-vs-world      china   1499     787    0.644       1.0      0.863 -0.137 -0.235 -0.039          -0.036    -0.051    -0.021            0.090  -0.051   0.230  0.190
+1      china-vs-world      world   1413     757    0.644       0.0     -0.175 -0.175 -0.281 -0.068          -0.024    -0.039    -0.009           -0.020  -0.156   0.116  0.754
+2  china-vs-singapore      china   1499     787    1.364       1.0      0.859 -0.141 -0.194 -0.088          -0.018    -0.025    -0.011           -0.029  -0.095   0.037  0.353
+3  china-vs-singapore  singapore   1251     753    1.364       0.0      0.014  0.014 -0.017  0.046          -0.003    -0.013     0.006            0.034  -0.029   0.098  0.262
+
+Desk gap on the fixed axis (year level):
+                  axis  pre_mean  post_mean  trend_per_year  trend_lo  trend_hi  level_shift     lo     hi      p  n_years
+0      china-vs-world     1.005      1.045          -0.014    -0.048     0.019        0.132 -0.140  0.404  0.304       13
+1  china-vs-singapore     1.000      0.847          -0.014    -0.031     0.003       -0.060 -0.199  0.079  0.359       13
